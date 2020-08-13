@@ -28,22 +28,52 @@
 
 ## :computer: Como rodar o projeto
 
-```bash
+
+## Backend
+
+```sh
 # Clonar o repositório
 git clone https://github.com/defauth98/Semana-Omnistack-11
 
-# Entrar na pasta do projeto backend
+# Ir para a pasta do backend
 cd Semana-Omnistack-11/backend
 
-# Instalar as depedencias usando yarn
+# Instalar as dependências
 yarn
 
-# Rodar as migrations
-yarn knex migrate:latest 
+# Rodar as migrations do banco de dados
+yarn knex migrate:latest
 
-# Rodar a API
+# Iniciar a API
 yarn dev
 
-# Rodar os tests
+# Rodar os testes
 yarn test
 ```
+
+## Frontend
+
+```sh
+# Ir para a pasta do frontend
+cd Semana-Omnistack-11/frontend
+
+# Instalar as dependências
+yarn
+
+# Iniciar a frontend
+yarn dev
+```
+
+## Mobile
+
+```sh
+# Ir para a pasta do frontend
+cd Semana-Omnistack-11/mobile
+
+# Instalar as dependências
+yarn
+
+# Iniciar a mobile
+yarn start
+```
+
